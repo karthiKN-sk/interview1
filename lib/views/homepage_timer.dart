@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:interview1/models/timer_model.dart';
+import 'package:interview1/service/service.dart';
 import 'package:interview1/widgets/timer.dart';
 import 'package:interview1/widgets/helpers.dart';
 import 'package:provider/provider.dart';
@@ -24,6 +25,12 @@ class _MyHomePageState extends State<MyHomePage> {
   String idGenerator() {
     final now = DateTime.now();
     return now.microsecondsSinceEpoch.toString();
+  }
+
+  @override
+  void initState() {
+    getData();
+    super.initState();
   }
 
   @override
