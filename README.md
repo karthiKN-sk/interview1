@@ -5,7 +5,7 @@ A new Flutter project For InterView(Timer CountDown App) with Markowate.
 ## Screenshots
 
 <h2 id="Outputs">Outputs</h2>
-<><img height= "300" src="screenshots/Screenshot_1692764582.png" alt="output1" />
+<p><img height= "300" src="screenshots/Screenshot_1692764582.png" alt="output1" />
 <img height= "300" src="screenshots/Screenshot_1692777950.png" alt="output2" />
 <img height= "300" src="screenshots/Screenshot_1692777969.png" alt="output3" />
 </p>
